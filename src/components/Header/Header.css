@@ -1,0 +1,42 @@
+img {
+    width: 6rem;
+    height: 6rem;
+    padding-left: 6rem;
+}
+
+.navbar {
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(5, 0, 0, 0.1);
+    padding-bottom:0.3rem;
+    padding-top:0.3rem;
+}
+
+.content {
+    margin-right: auto;
+}
+
+.logoutBtn {
+    color: white;
+    background-color: #1e90ff;
+    border: none; 
+    border-radius: 5px;
+    padding: 0.75rem 2.2rem;
+    margin-right: 6rem;
+}
+
+.logoutBtn:hover {
+    background-color: #1973cc;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    color: blue;
+    margin: 0;
+}
+
+

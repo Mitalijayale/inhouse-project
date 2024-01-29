@@ -1,0 +1,83 @@
+.container{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right:4rem;   
+}
+
+.academicYear {
+    display: inline-block; 
+}
+
+.ayLabel,.ayDropdown {
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: white; 
+}
+
+.ayDropdown {
+    font-size: 1rem;
+    border-radius: 0 0.7rem 0.7rem 0; 
+    padding: 0.7rem 1.5rem;
+    padding-top: 0.85rem;
+}
+
+.ayLabel{
+    padding: 0.7rem 1.5rem;
+    margin-top:100px;
+    border-radius: 0.7rem 0 0 0.7rem;
+}
+
+.headText{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.committeeForm{
+    border:2px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    height:auto;
+    background-color:#F2F2F2;
+}
+
+#row1{
+    display: block;
+    margin-left:2rem;
+    margin-top:2rem;
+}
+
+#row2,#row3,#row4,#row5,#row6,#row7,#row8,#row9{
+    display: block;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+#row3 textarea{
+    margin-top:1rem;
+    margin-bottom:none;
+}
+
+#memLab{
+    margin-bottom:1rem;
+}
+
+#row9 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 4rem); 
+}
+
+#row9 button {
+    margin-left: 1rem; 
+}
+
+textarea {
+    resize: none;
+}
+
+#btnReset{
+ 
+}

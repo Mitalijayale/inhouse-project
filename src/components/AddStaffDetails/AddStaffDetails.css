@@ -1,0 +1,134 @@
+.title{
+    margin-top:1.5rem;
+    display: flex;
+    margin-bottom:1.5rem;
+}
+
+.blank{
+    margin-top:1.5rem;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    width:0.3rem;
+    height:2rem;
+    margin-left:6rem;
+}
+
+h1{
+    font-family:sans-serif;
+    margin-left: 1rem;
+    color: rgba(0,0,0,0.6);
+}
+
+.searchStaff,.facultyNameAdd,.facultyEducationAdd,.facultySocialAdd,.facultyImageAdd {
+    height: 3rem;
+    font-size: 18px;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.searchStaff{
+    margin-left: 6rem;
+    width: 74%;
+}
+
+.addStaffBtn,.cancelAddBtn {
+    color: white;
+    font-size: 16px;
+    border: none; 
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    margin-left: 2rem;
+}
+
+.facultyNameAdd{
+    width: 28rem;
+}
+
+.facultyEducationAdd{
+    width: 22rem;
+}
+
+.facultySocialAdd{
+    width: 15rem;
+}
+
+#imageUploadInput{
+    width: 10px;
+}
+
+.facultyNameAdd,.facultyEducationAdd,.facultySocialAdd{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.facultyImageAdd{
+    margin-left:3rem;
+    width: 8rem;
+    height: 3rem;
+    color: transparent;
+}
+
+.addStaffBtn{
+    background-color: #1e90ff;
+}
+
+.cancelAddBtn{
+    background-color: #ff8686;
+  }
+
+.addStaffBtn:hover {
+    background-color: #1973cc;
+}
+
+.addFaculty{
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    margin-left: 6rem;
+}
+
+table{
+    margin-left:6rem;
+    width:89%;
+    box-shadow: 0px 2px 4px rgba(5, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+th{   
+    font-weight: 400; 
+    font-size: 1.3rem;
+    height: 3rem;
+    text-align: left;
+    
+}
+
+.columnHeading{
+    background-color:#f6f6f6;
+    box-shadow: 0px 2px 4px rgba(5, 0, 0, 0.1);
+}
+  
+.cancelAddBtn:hover {
+  background-color: #d66262;
+}
+
+.addFaculty {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.addFaculty.open {
+    max-height: 500px; 
+}
+
+.noRecordMessage {
+    text-align: center;
+    margin-top: 1rem;
+    color: #888;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+     
