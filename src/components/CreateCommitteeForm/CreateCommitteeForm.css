@@ -4,29 +4,6 @@
     margin-right:4rem;   
 }
 
-.academicYear {
-    display: inline-block; 
-}
-
-.ayLabel,.ayDropdown {
-    border: 2px solid;
-    border-color: rgba(0, 0, 0, 0.3);
-    background-color: white; 
-}
-
-.ayDropdown {
-    font-size: 1rem;
-    border-radius: 0 0.7rem 0.7rem 0; 
-    padding: 0.7rem 1.5rem;
-    padding-top: 0.85rem;
-}
-
-.ayLabel{
-    padding: 0.7rem 1.5rem;
-    margin-top:100px;
-    border-radius: 0.7rem 0 0 0.7rem;
-}
-
 .headText{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -76,8 +53,4 @@
 
 textarea {
     resize: none;
-}
-
-#btnReset{
- 
 }

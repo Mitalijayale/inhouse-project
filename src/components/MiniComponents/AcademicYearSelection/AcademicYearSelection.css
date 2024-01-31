@@ -1,0 +1,26 @@
+.academicYear {
+    display: flex;
+    align-items: center; 
+    width: 20%; 
+}
+
+.ayLabel, .ayDropdown {
+    flex: 1; 
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
+    white-space: nowrap;
+}
+
+.ayDropdown {
+    font-size: 1rem;
+    border-radius: 0 0.7rem 0.7rem 0;
+    padding: 0.7rem 1.5rem;
+    padding-top: 0.85rem;
+}
+
+.ayLabel {
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.7rem 0 0 0.7rem;
+    font-size: 1rem;
+}

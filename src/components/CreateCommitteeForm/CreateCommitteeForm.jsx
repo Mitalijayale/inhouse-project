@@ -1,17 +1,11 @@
 import React from "react";
+import AcademicYearSelection from "../MiniComponents/AcademicYearSelection/AcademicYearSelection.jsx";
 import "./CreateCommitteeForm.css";
 
 function CreateCommitteeForm() {
   return (
     <div className="container">
-      <div className="academicYear">
-        <label className="ayLabel">Academic Year</label>
-        <select className="ayDropdown">
-          <option>2023-2024</option>
-          <option>2023-2024</option>
-          <option>2023-2024</option>
-        </select>
-      </div>
+      <AcademicYearSelection />
       <h2 className="headText">Create new committee</h2>
       <div className="committeeForm">
         <div id="row1">
