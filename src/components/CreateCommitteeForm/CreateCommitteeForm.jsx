@@ -33,7 +33,7 @@ function CreateCommitteeForm() {
           <label id="memLab">Members</label>
         </div>
 
-        <div id="rowMain1">
+        <div className="rowMain">
           <div id="row4">
             <label>Name</label>
             <br />
@@ -63,19 +63,20 @@ function CreateCommitteeForm() {
         </div>
 
         <div id="row8">
-        <label>Upload document if any</label>
-        <br />
+          <label>Upload document if any</label>
+          <br />
           <div className="custom-file-input">
             <input type="file" id="fileInput" className="input-hidden" />
             <label htmlFor="fileInput">
-            <span>📁 Select File</span>
+              <span>📁 Select File</span>
             </label>
           </div>
         </div>
 
-
         <div id="row9">
-          <button type="reset" id="btnReset">Reset</button>
+          <button type="reset" id="btnReset">
+            Reset
+          </button>
           <button id="btnCancel">Cancel</button>
           <button id="btnSave">Save</button>
         </div>

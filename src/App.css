@@ -13,23 +13,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .headText{
-  margin-top: 2%;
+  margin-top: 2rem;
   margin-left: 4%;
   margin-right:4%;  
-  margin-bottom: 2%;
+  margin-bottom: 2rem;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.header-container {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .App-link {
@@ -42,5 +38,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headText{
+    text-align: center;
   }
 }
