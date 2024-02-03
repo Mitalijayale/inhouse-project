@@ -8,11 +8,6 @@
     font-weight: bold;
 }
 
-.headText{
-    margin-bottom: 2%;
-    color: rgba(0, 0, 0, 0.7);
-}
-
 .committeeForm{
     border:2px solid;
     border-color: rgba(0, 0, 0, 0.2);

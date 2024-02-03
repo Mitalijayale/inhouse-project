@@ -4,7 +4,6 @@ import "./CreateCommitteeForm.css";
 function CreateCommitteeForm() {
   return (
     <div className="container">
-      <h2 className="headText">Create new committee</h2>
       <form className="committeeForm">
         <div className="rowMain">
           <div id="row1">
