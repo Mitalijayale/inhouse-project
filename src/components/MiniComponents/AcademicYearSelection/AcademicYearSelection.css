@@ -1,5 +1,5 @@
 .academicYear {
-    margin-top: 0.2%;
+    margin-top: 0.3%;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -15,7 +15,8 @@
 }
 
 .ayDropdown {
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
     border-radius: 0 0.7rem 0.7rem 0;
     padding: 0.7rem 1.5rem;
     padding-top: 0.85rem;
@@ -24,7 +25,8 @@
 .ayLabel {
     padding: 0.7rem 1.5rem;
     border-radius: 0.7rem 0 0 0.7rem;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width: 768px) {
