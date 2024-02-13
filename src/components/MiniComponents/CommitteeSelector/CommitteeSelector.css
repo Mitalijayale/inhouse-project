@@ -1,0 +1,45 @@
+#committeeSelector {
+    margin-top: 2rem;
+    height: 3rem;
+    align-items: center;
+    flex: 1; 
+    display: flex;
+    margin-right: 4%;
+}
+
+#committeeSelector select {
+    flex: 1; 
+    height: 100%;
+    font-size: 18px;
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color:#F2F2F2;
+}
+
+#committeeSelector button {
+    color: white;
+    font-size: 18px;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 0.7%;
+    background-color: #1e90ff;
+    padding: 0.8rem 2.2rem;
+}
+
+#committeeSelector button:hover {
+    background-color: #1973cc;
+}
+
+#committeeSelector option {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    #committeeSelector button{
+      text-wrap: nowrap;
+      padding: 0.8rem 1.8rem;
+    }
+  }
