@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+/*back image for login*/
+.login-container {
+  background-image: url(components/Images/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

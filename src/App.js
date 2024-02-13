@@ -7,6 +7,8 @@ import CreateCommitteeForm from "./components/CreateCommitteeForm/CreateCommitte
 import Searchbar from "./components/MiniComponents/Searchbar/Searchbar.jsx";
 import AcademicYearSelection from "./components/MiniComponents/AcademicYearSelection/AcademicYearSelection.jsx";
 import CommitteeSelector from "./components/MiniComponents/CommitteeSelector/CommitteeSelector.jsx";
+import Login from './components/LoginForm/Login.jsx';
+import Resetpass from './components/ResetPass/Reset.jsx';
 
 
 function App() {
@@ -15,6 +17,18 @@ function App() {
       <Header />
         <BrowserRouter>
           <Routes>
+        
+          <Route path="/login" element={
+            <div className="login-container">
+            <Login />
+          </div>
+            }/>
+
+          <Route path="/reset" element={
+            <div className="login-container">
+            <Resetpass />
+          </div>
+            }/>
 
             <Route path="/addstaff" element={
               <AddStaffDetails />
