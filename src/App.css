@@ -4,7 +4,7 @@
 
 /*back image for login*/
 .login-container {
-  background-image: url(components/Images/back.png);
+  background-image: url(assets/back.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
