@@ -1,17 +1,18 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/collegeLogo.jpg";
+import style from "./Reset.module.css";
 
 function Reset() {
   return (
-    <div className="container">
-      <img src={logo} alt="Logo" className="logo" />
-      <h3 className="textType">PICT COMMITTEES</h3>
+    <div className={style.container}>
+      <img src={logo} alt="Logo" className={style.logo} />
+      <h3 className={style.textType}>PICT COMMITTEES</h3>
       <p>Login to manage the committees</p>
       <form>
-        <div className="formGroup">
-          <div className="mb-3  input-container">
-            <label className="username">Username</label>
+        <div className={style.formGroup}>
+          <div className={style.inputcontainer}>
+            <label className={style.username}>Username</label>
             <input type="text" className="form-control" id="username" />
           </div>
 

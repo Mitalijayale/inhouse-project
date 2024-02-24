@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import './App.css';
 import Header from "./components/Header/Header.jsx";
@@ -9,6 +9,8 @@ import AcademicYearSelection from "./components/MiniComponents/AcademicYearSelec
 import CommitteeSelector from "./components/MiniComponents/CommitteeSelector/CommitteeSelector.jsx";
 import Login from './components/LoginForm/Login.jsx';
 import Resetpass from './components/ResetPass/Reset.jsx';
+import Committies from './components/CommittiesInfo/Committies.jsx';
+
 
 
 function App() {
@@ -29,6 +31,13 @@ function App() {
             <Resetpass />
           </div>
             }/>
+
+          <Route path="/publicview" element={
+            <>
+              <Committies/>
+              </>
+            }/>
+
 
             <Route path="/addstaff" element={
               <AddStaffDetails />
